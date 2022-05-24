@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fdfdfd;
+}
+
+*::selection{
+    background-color: orangered;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+section,header,nav,div,footer,main,span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
