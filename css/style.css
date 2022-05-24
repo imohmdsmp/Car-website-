@@ -741,6 +741,11 @@ address {
         width: 300%;
         left: -100%;
     }
+    
+    .sidebar_sec{
+        position: relative;
+        top: 100px;
+    }
 }
 
 
